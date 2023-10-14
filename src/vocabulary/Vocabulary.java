@@ -439,6 +439,313 @@ public class Vocabulary {
         words.add(new Word("understand", "розуміти"));
 
 
+
+        //Chapter 3.
+        //Work
+        words.add(new Word("accountant", "бухгалтер"));
+        words.add(new Word("architect", "архітектор"));
+        words.add(new Word("baby-sitter", "няня"));
+        words.add(new Word("cashier", "касир"));
+        words.add(new Word("chef", "шеф-повар"));
+        words.add(new Word("cook", "повар"));
+        words.add(new Word("dentist", "стоматолог"));
+        words.add(new Word("doctor", "лікар"));
+        words.add(new Word("driver", "водій"));
+        words.add(new Word("engineer", "індженер"));
+        words.add(new Word("farmer", "фермер"));
+        words.add(new Word("hairdresser", "перукар"));
+        words.add(new Word("journalist", "журналіст"));
+        words.add(new Word("judge", "суддя"));
+        words.add(new Word("lawyer", "юрист"));
+        words.add(new Word("librarian", "бібліотекар"));
+        words.add(new Word("mechanic", "механік"));
+        words.add(new Word("nurse", "медсестра"));
+        words.add(new Word("policeman", "поліцейський"));
+        words.add(new Word("politician", "політик"));
+        words.add(new Word("secretary", "секретар"));
+        words.add(new Word("shop assistant", "продавець"));
+        words.add(new Word("teacher", "вчитель"));
+        words.add(new Word("vet", "ветеринар"));
+        words.add(new Word("waiter", "офіціант"));
+        words.add(new Word("waitress", "офіціантка"));
+        words.add(new Word("designer", "дизайнер"));
+        words.add(new Word("electrician", "електрик"));
+        words.add(new Word("fireman", "пожежник"));
+        words.add(new Word("gardener", "садівник"));
+        words.add(new Word("florist", "флорист"));
+        words.add(new Word("lifeguard", "рятувальник на морі"));
+        words.add(new Word("flight attendant", "борт провідник"));
+        words.add(new Word("pilot", "пілот"));
+
+
+
+        //Workplace and working conditions. The career ladder.
+        words.add(new Word("duties", "обов*язки(d)"));
+        words.add(new Word("responsibilities", "обов*язки(r)"));
+        words.add(new Word("full-time job", "робота на повний робочий день"));
+        words.add(new Word("part-time job", "робота на неповний робочий день"));
+        words.add(new Word("nine-to-five job", "восьмо годиний робочий день"));
+        words.add(new Word("flexi-time", "гнучкий графік роботи"));
+        words.add(new Word("shift work", "робота по змінах"));
+        words.add(new Word("salary", "зарплата"));
+        words.add(new Word("income", "прибуток"));
+        words.add(new Word("employer", "роботодавець"));
+        words.add(new Word("employee", "працівник"));
+        words.add(new Word("unemployed", "безробітній"));
+        words.add(new Word("trainee", "стажер"));
+        words.add(new Word("company", "компанія"));
+        words.add(new Word("staff", "персонал"));
+        words.add(new Word("colleagues", "колеги"));
+        words.add(new Word("CV", "резюме"));
+        words.add(new Word("vacation", "відпустка"));
+        words.add(new Word("be responsible for", "бути відповідальним за"));
+        words.add(new Word("work overtime", "працювати понаднормово"));
+        words.add(new Word("apply for a job", "найматися на роботу"));
+        words.add(new Word("employ", "наймати на роботу(e)"));
+        words.add(new Word("hire", "наймати на роботу(h)"));
+        words.add(new Word("fulfill", "виконувати(f)"));
+        words.add(new Word("perform", "виконувати(p)"));
+        words.add(new Word("earn", "заробляти"));
+        words.add(new Word("receive", "отримувати"));
+        words.add(new Word("promote", "підвищувати"));
+        words.add(new Word("retire", "вийти на пенсію"));
+        words.add(new Word("give up", "кидати, здаватися"));
+        words.add(new Word("resign", "піти у відставку"));
+
+
+
+        //Education
+        words.add(new Word("kindergarten", "дитячий садок"));
+        words.add(new Word("primary school", "початкова школа"));
+        words.add(new Word("secondary school", "середня школа"));
+        words.add(new Word("college", "коледж"));
+        words.add(new Word("higher education", "вища освіта"));
+        words.add(new Word("university", "університет"));
+        words.add(new Word("faculty", "факультет"));
+        words.add(new Word("department", "відділ"));
+        words.add(new Word("term", "семест"));
+        words.add(new Word("lecture", "лекція"));
+        words.add(new Word("lesson", "урок"));
+        words.add(new Word("subject", "предмет"));
+        words.add(new Word("bachelor", "бакалавр"));
+        words.add(new Word("master", "магістр"));
+        words.add(new Word("degree", "ступінь"));
+        words.add(new Word("lecturer", "лектор, викладач"));
+        words.add(new Word("teacher", "вчитель"));
+        words.add(new Word("certificate", "сертифікат"));
+        words.add(new Word("diploma", "диплом"));
+        words.add(new Word("scholarship", "стипендія(s)"));
+        words.add(new Word("grant", "стипендія(g)"));
+        words.add(new Word("assignment", "завдання"));
+        words.add(new Word("mark", "оцінка"));
+        words.add(new Word("point", "бал"));
+        words.add(new Word("enter", "вступити"));
+        words.add(new Word("enroll", "записатися"));
+        words.add(new Word("attend", "відвідувати"));
+        words.add(new Word("learn", "вивчати"));
+        words.add(new Word("study", "навчатися"));
+        words.add(new Word("teach", "навчати"));
+        words.add(new Word("ask", "питати, просити"));
+        words.add(new Word("answer", "відповідати"));
+        words.add(new Word("cheat", "списувати"));
+        words.add(new Word("graduate from", "завершити(про навчальний заклад)"));
+
+
+
+        //Chapter 4.
+        //Food and restaurants. Eating out
+        words.add(new Word("meat", "м*ясо(продукт харчування)"));
+        words.add(new Word("poultry", "птиця(продукт харчування)"));
+        words.add(new Word("ham", "шинка"));
+        words.add(new Word("pork", "свинина"));
+        words.add(new Word("beef", "яловичина"));
+        words.add(new Word("veal", "телятина"));
+        words.add(new Word("meat balls", "фрикадельки"));
+        words.add(new Word("chop", "відбивна"));
+        words.add(new Word("cutlet", "котлета"));
+        words.add(new Word("liver", "печінка"));
+        words.add(new Word("turkey", "індичка"));
+        words.add(new Word("duck", "качка"));
+        words.add(new Word("broth", "бульйон"));
+        words.add(new Word("bread", "хліб"));
+        words.add(new Word("biscuit", "печенько"));
+        words.add(new Word("cake", "торт"));
+        words.add(new Word("dairy products", "молочні продукти"));
+        words.add(new Word("sour cream", "сметана"));
+        words.add(new Word("cheese", "сир"));
+        words.add(new Word("milk", "молоко"));
+        words.add(new Word("egg", "яйце"));
+        words.add(new Word("butter", "масло"));
+        words.add(new Word("yogurt", "йогурт"));
+        words.add(new Word("cereal", "каша"));
+        words.add(new Word("buckwheat", "гречка"));
+        words.add(new Word("salt", "сіль"));
+        words.add(new Word("vinegar", "оцет"));
+        words.add(new Word("oil", "олія"));
+        words.add(new Word("olive", "оливкова олія"));
+        words.add(new Word("mustard", "гірчиця"));
+        words.add(new Word("mayonnaise", "майонез"));
+        words.add(new Word("rise", "рис"));
+        words.add(new Word("flour", "мука"));
+        words.add(new Word("herring", "оселедець"));
+        words.add(new Word("shrimps", "креветки"));
+        words.add(new Word("lobster", "лобстер"));
+        words.add(new Word("salmon", "лосось"));
+        words.add(new Word("sprats", "шпроти"));
+        words.add(new Word("fried fish", "смажена риба"));
+        words.add(new Word("raw fish", "сира риба"));
+        words.add(new Word("smoked fish", "копчена риба"));
+        words.add(new Word("stuffed fish", "фарширована риба"));
+        words.add(new Word("caviar", "ікра"));
+        words.add(new Word("vegetables", "овочі"));
+        words.add(new Word("potato", "картопля"));
+        words.add(new Word("tomato", "помідор"));
+        words.add(new Word("cabbage", "капуста"));
+        words.add(new Word("carrot", "морква"));
+        words.add(new Word("cucumber", "огірок"));
+        words.add(new Word("beet", "буряк"));
+        words.add(new Word("onion", "цибуля"));
+        words.add(new Word("radish", "редиска"));
+        words.add(new Word("lettuce", "листя салату"));
+        words.add(new Word("vegetable marrow", "кабачок"));
+        words.add(new Word("egg-plant", "баклажан"));
+        words.add(new Word("parsley", "петрушка"));
+        words.add(new Word("pepper", "перець"));
+        words.add(new Word("garlic", "часник"));
+        words.add(new Word("fruit", "фрукт"));
+        words.add(new Word("berry", "ягода"));
+        words.add(new Word("apple", "яблуко"));
+        words.add(new Word("apricot", "абрикос"));
+        words.add(new Word("banana", "банан"));
+        words.add(new Word("grapes", "виноград"));
+        words.add(new Word("melon", "диня"));
+        words.add(new Word("orange", "апельсин"));
+        words.add(new Word("peach", "персик"));
+        words.add(new Word("pear", "груша"));
+        words.add(new Word("pineapple", "ананас"));
+        words.add(new Word("strawberry", "полуниця"));
+        words.add(new Word("raspberry", "малина"));
+        words.add(new Word("watermelon", "кавун"));
+        words.add(new Word("drink", "напій"));
+        words.add(new Word("wine", "вино"));
+        words.add(new Word("sweet wine", "солодке вино"));
+        words.add(new Word("dry wine", "сухе вино"));
+        words.add(new Word("soft drink", "безалкогольний напій"));
+        words.add(new Word("stewed fruit", "копот"));
+        words.add(new Word("boil", "кип*ятити"));
+        words.add(new Word("fry", "смажити на сковорі"));
+        words.add(new Word("grill", "смажити на грилі"));
+        words.add(new Word("roast", "запікати в духовці"));
+        words.add(new Word("bake", "випікати"));
+        words.add(new Word("heat", "нагрівати"));
+        words.add(new Word("cut", "різати"));
+        words.add(new Word("spread", "намащувати"));
+        words.add(new Word("grate", "терти"));
+        words.add(new Word("chop", "різати кубиками"));
+        words.add(new Word("slice", "різати скибками"));
+
+
+
+        //Shops and shopping
+        words.add(new Word("bookshop", "книжковий магазин"));
+        words.add(new Word("boutique", "бутік"));
+        words.add(new Word("department store", "універмаг"));
+        words.add(new Word("shoe shop", "взуттевий магазин"));
+        words.add(new Word("sports shop", "спортивний магазин"));
+        words.add(new Word("supermarket", "супермаркет"));
+        words.add(new Word("toyshop", "іграшковий магазин"));
+        words.add(new Word("cash-desk", "каса"));
+        words.add(new Word("cashier", "касир"));
+        words.add(new Word("fitting room", "примірочна"));
+        words.add(new Word("goods", "товар"));
+        words.add(new Word("product", "продукт"));
+        words.add(new Word("receipt", "товарний чек"));
+        words.add(new Word("affort", "дозволити собі(фінансово)"));
+        words.add(new Word("buy", "купувати"));
+        words.add(new Word("borrow", "позичати"));
+        words.add(new Word("charge", "сплачувати за"));
+        words.add(new Word("cost", "коштувати"));
+        words.add(new Word("do shopping", "робити покупки"));
+        words.add(new Word("exchange", "обмінювати"));
+        words.add(new Word("fit", "підходити(по розміру)"));
+        words.add(new Word("go shopping", "йти за покупками"));
+        words.add(new Word("land", "позичати"));
+        words.add(new Word("match", "підходити"));
+        words.add(new Word("owe", "бути винним"));
+        words.add(new Word("pay", "платити"));
+        words.add(new Word("purchase", "купувати"));
+        words.add(new Word("sell", "продавати"));
+        words.add(new Word("suit", "личити"));
+        words.add(new Word("try on", "приміряти"));
+
+
+
+        //I don't how it names
+        words.add(new Word("who", "хто?"));
+        words.add(new Word("whose", "чий?, чия?, чиє?"));
+        words.add(new Word("what", "що?, який?"));
+        words.add(new Word("which", "котрий?"));
+        words.add(new Word("where", "де?"));
+        words.add(new Word("when", "коли?"));
+        words.add(new Word("how long", "як довго?"));
+        words.add(new Word("how often", "як часто?"));
+        words.add(new Word("why", "чому?"));
+        words.add(new Word("how much", "скільки(незлічувані)?"));
+        words.add(new Word("how many", "скільки(злічувані)?"));
+
+
+
+        //Holidays and travelling
+        words.add(new Word("airport", "аеропорт"));
+        words.add(new Word("arrival", "прибуття"));
+        words.add(new Word("arrive", "приїжджати"));
+        words.add(new Word("bed and breakfast", "лише сніданок включений у вартість"));
+        words.add(new Word("backpack", "рюкзак"));
+        words.add(new Word("bicycle", "велосипед"));
+        words.add(new Word("boarding pass", "посадковий талон"));
+        words.add(new Word("board the plane", "сідати на борт літака"));
+        words.add(new Word("book", "резервувати(b)"));
+        words.add(new Word("bus", "автобус"));
+        words.add(new Word("bus fare", "плата за проїзд у автобусі"));
+        words.add(new Word("train fare", "плата за проїзд у поїзді"));
+        words.add(new Word("car", "машина"));
+        words.add(new Word("carriage", "вагон"));
+        words.add(new Word("check-in", "реєстрація"));
+        words.add(new Word("confirm", "підтверджувати"));
+        words.add(new Word("customs", "митниця"));
+        words.add(new Word("depart", "від*їжджати"));
+        words.add(new Word("departure", "виїзд"));
+        words.add(new Word("departure lounge", "зал відпочинку"));
+        words.add(new Word("destination", "місце призначення"));
+        words.add(new Word("double room", "двомісна кімната"));
+        words.add(new Word("facilities", "зручності"));
+        words.add(new Word("flight", "рейс"));
+        words.add(new Word("fly", "літати"));
+        words.add(new Word("full board", "сніданок, обід, вечеря включенні у вартість"));
+        words.add(new Word("half board", "сніданок і вечеря включенні у вартість"));
+        words.add(new Word("hotel", "готель"));
+        words.add(new Word("journey", "подорож(j)"));
+        words.add(new Word("lorry", "вантажівка"));
+        words.add(new Word("luggage", "багаж"));
+        words.add(new Word("passport control", "паспортний контроль"));
+        words.add(new Word("plane", "літак"));
+        words.add(new Word("reserve", "зарезевувати(r)"));
+        words.add(new Word("reservation", "бронювання"));
+        words.add(new Word("seaside holiday", "канікули на морі"));
+        words.add(new Word("ship", "корабель"));
+        words.add(new Word("single room", "одномісна кімната"));
+        words.add(new Word("suitcase", "валіза"));
+        words.add(new Word("tax", "податок"));
+        words.add(new Word("taxi", "таксі"));
+        words.add(new Word("tour", "тур"));
+        words.add(new Word("train", "поїзд"));
+        words.add(new Word("tram", "трамвай"));
+        words.add(new Word("traveller", "подорожуючий, мандрівник"));
+        words.add(new Word("trip", "подорож(t)"));
+        words.add(new Word("visa", "віза"));
+
+
+
         return words;
     }
 }
