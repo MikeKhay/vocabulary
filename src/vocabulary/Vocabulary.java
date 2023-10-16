@@ -746,6 +746,206 @@ public class Vocabulary {
 
 
 
+        //Chapter 5.
+        //Trains of character
+        words.add(new Word("ambitious", "амбіційний"));
+        words.add(new Word("angry", "злий"));
+        words.add(new Word("arrogant", "зарозумілий"));
+        words.add(new Word("aggressive", "агресивний"));
+        words.add(new Word("boring", "нудний"));
+        words.add(new Word("brave", "сміливий"));
+        words.add(new Word("calm", "спокійний"));
+        words.add(new Word("carefree", "безтурботний"));
+        words.add(new Word("cheerful", "веселий"));
+        words.add(new Word("clever", "розумний"));
+        words.add(new Word("creative", "творчий"));
+        words.add(new Word("dishonest", "лицемірний"));
+        words.add(new Word("frank", "відвертий"));
+        words.add(new Word("friendly", "дружелюбний"));
+        words.add(new Word("funny", "смішний"));
+        words.add(new Word("generous", "щедрий"));
+        words.add(new Word("greedy", "скупий, жадібний"));
+        words.add(new Word("happy", "щасливий"));
+        words.add(new Word("honest", "чесний"));
+        words.add(new Word("impatient", "нетерплячий"));
+        words.add(new Word("kind", "добрий"));
+        words.add(new Word("lazy", "лінивий"));
+        words.add(new Word("livery", "жвавий"));
+        words.add(new Word("loyal", "відданий"));
+        words.add(new Word("modest", "скромний"));
+        words.add(new Word("patient", "терпеливий"));
+        words.add(new Word("punctual", "пунктуальний"));
+        words.add(new Word("realistic", "реалістичний"));
+        words.add(new Word("reliable", "надійний"));
+        words.add(new Word("responsible", "відповідальний"));
+        words.add(new Word("self-confident", "самовпевнений"));
+        words.add(new Word("sensible", "розсудливий"));
+        words.add(new Word("sensitive", "чуйний"));
+        words.add(new Word("spy", "сором*язливий"));
+        words.add(new Word("stubborn", "впертий"));
+        words.add(new Word("unpredictable", "непередбачуваний"));
+        words.add(new Word("timid", "боягуз"));
+        words.add(new Word("well-balanced", "врівноважений"));
+
+
+
+        //Relationships
+        words.add(new Word("acquaintance", "знайомий"));
+        words.add(new Word("boyfriend", "хлопець"));
+        words.add(new Word("bride", "наречена(на весіллі)"));
+        words.add(new Word("close", "близький друг"));
+        words.add(new Word("distant relative", "далекий родич"));
+        words.add(new Word("girlfriend", "дівчина"));
+        words.add(new Word("groom", "наречений(на весіллі)"));
+        words.add(new Word("marriage", "шлюб, одруження"));
+        words.add(new Word("spouse", "чоловік або дружина"));
+        words.add(new Word("wedding", "вессіля"));
+        words.add(new Word("annoy", "нервувати"));
+        words.add(new Word("apologize", "вибачатися"));
+        words.add(new Word("argue", "сперечатися, сваритися"));
+        words.add(new Word("behave", "поводитися"));
+        words.add(new Word("communicate", "спілкуватися"));
+        words.add(new Word("criticize", "критикувати"));
+        words.add(new Word("cheat", "зраджувати"));
+        words.add(new Word("date", "зустрічатися(побачення)"));
+        words.add(new Word("divorce", "розлучитися"));
+        words.add(new Word("fancy", "подобатись"));
+        words.add(new Word("force", "змушувати"));
+        words.add(new Word("get married", "одружитися"));
+        words.add(new Word("get acquainted", "познайомитись"));
+        words.add(new Word("get out with someone", "зустрічатися з уимось"));
+        words.add(new Word("embarrass", "бентежити"));
+        words.add(new Word("offend", "ображати"));
+        words.add(new Word("pretend", "прикидатися"));
+        words.add(new Word("propose", "зробити пропозицію"));
+        words.add(new Word("regret", "шкодувати"));
+        words.add(new Word("separate", "розійтись, розлучитись"));
+        words.add(new Word("share", "ділитися"));
+        words.add(new Word("support", "підтримувати"));
+        words.add(new Word("get on well", "ладнати"));
+        words.add(new Word("trust", "довіряти"));
+
+
+
+        //Feeling and emotions
+        words.add(new Word("aggressive", "агресивний"));
+        words.add(new Word("amazed", "вражений, здивований(a)"));
+        words.add(new Word("annoyed", "роздратований"));
+        words.add(new Word("anxious", "схвильований(a)"));
+        words.add(new Word("attentive", "уважний"));
+        words.add(new Word("bored", "знуджений"));
+        words.add(new Word("charming", "чарівний"));
+        words.add(new Word("confused", "спантеличений"));
+        words.add(new Word("curious", "цікавий"));
+        words.add(new Word("depressed", "пригнічений"));
+        words.add(new Word("excited", "схвильований(e)"));
+        words.add(new Word("exhausted", "виснажений"));
+        words.add(new Word("focused", "зосереджений"));
+        words.add(new Word("furious", "лютий, розлючений"));
+        words.add(new Word("gloomy", "похмурий"));
+        words.add(new Word("grateful", "вдячний"));
+        words.add(new Word("interested", "зацікавлений"));
+        words.add(new Word("jealous", "ревнивий, заздрісний"));
+        words.add(new Word("miserable", "жалюгідний, нещасний"));
+        words.add(new Word("motivated", "мотивований"));
+        words.add(new Word("sad", "сумний"));
+        words.add(new Word("scared", "наляканий"));
+        words.add(new Word("surprised", "здивований(s)"));
+        words.add(new Word("tired", "втомлений"));
+        words.add(new Word("upset", "засмучений"));
+        words.add(new Word("worried", "стурбований"));
+
+
+
+
+
+
+        //Irregular verbs
+        /////////////////
+        words.add(new IrregularVerb("be", "was, were", "been", "бути"));
+        words.add(new IrregularVerb("bear", "bore", "born", "нести, народжувати"));
+        words.add(new IrregularVerb("become", "became", "become", "ставати кимось, чимось"));
+        words.add(new IrregularVerb("begin", "began", "begun", "починати(ся)"));
+        words.add(new IrregularVerb("bite", "bit", "bit", "кусати"));
+        words.add(new IrregularVerb("blow", "blew", "blown", "дути"));
+        words.add(new IrregularVerb("break", "broke", "broken", "ламати"));
+        words.add(new IrregularVerb("bring", "brought", "brought", "приносити"));
+        words.add(new IrregularVerb("build", "built", "built", "будувати"));
+        words.add(new IrregularVerb("burn", "burnt", "burnt", "горіти, палати"));
+        words.add(new IrregularVerb("buy", "bought", "bought", "купувати"));
+        words.add(new IrregularVerb("catch", "caught", "caught", "ловити"));
+        words.add(new IrregularVerb("choose", "chose", "chosen", "вибирати"));
+        words.add(new IrregularVerb("come", "came", "come", "приходити"));
+        words.add(new IrregularVerb("cost", "cost", "cost", "коштувати"));
+        words.add(new IrregularVerb("cut", "cut", "cut", "різати"));
+        words.add(new IrregularVerb("do", "did", "done", "робити, виконувати"));
+        words.add(new IrregularVerb("draw", "drew", "drawn", "малювати"));
+        words.add(new IrregularVerb("dream", "dreamt", "dreamt", "мріяти, снитися"));
+        words.add(new IrregularVerb("drink", "drank", "drunk", "пити"));
+        words.add(new IrregularVerb("drive", "drove", "driven", "керувати, водити"));
+        words.add(new IrregularVerb("eat", "ate", "eaten", "їсти"));
+        words.add(new IrregularVerb("fall", "fell", "fallen", "падати"));
+        words.add(new IrregularVerb("feed", "fed", "fed", "годувати"));
+        words.add(new IrregularVerb("feel", "felt", "felt", "почувати(себе)"));
+        words.add(new IrregularVerb("fight", "fought", "fought", "битися, боротися"));
+        words.add(new IrregularVerb("forget", "forgot", "forgotten", "забувати"));
+
+        words.add(new IrregularVerb("get", "got", "got", "отримувати"));
+        words.add(new IrregularVerb("give", "gave", "given", "давати"));
+        words.add(new IrregularVerb("go", "went", "gone", "іти, їхати"));
+        words.add(new IrregularVerb("grow", "grew", "grown", "виростити"));
+        words.add(new IrregularVerb("hang", "hung", "hung", "вішати, висіти"));
+        words.add(new IrregularVerb("have", "had", "had", "мати"));
+        words.add(new IrregularVerb("hear", "heard", "heard", "чути"));
+        words.add(new IrregularVerb("hide", "hid", "hidden", "ховатися"));
+        words.add(new IrregularVerb("know", "knew", "known", "знати"));
+        words.add(new IrregularVerb("lead", "led", "let", "вести, призводити"));
+        words.add(new IrregularVerb("learn", "learnt", "learnt", "вчити(ся)"));
+        words.add(new IrregularVerb("leave", "left", "left", "залишити, покидати"));
+        words.add(new IrregularVerb("lend", "lent", "lent", "позичати"));
+        words.add(new IrregularVerb("let", "let", "let", "дозволяти"));
+        words.add(new IrregularVerb("light", "lit", "lit", "світити"));
+        words.add(new IrregularVerb("lose", "lost", "lost", "втрачати"));
+        words.add(new IrregularVerb("mean", "meant", "meant", "означати"));
+        words.add(new IrregularVerb("meet", "met", "met", "зустрічати, знайомитися"));
+        words.add(new IrregularVerb("put", "put", "put", "класти"));
+        words.add(new IrregularVerb("read", "read", "read", "читати"));
+        words.add(new IrregularVerb("ride", "rode", "ridden", "кататися"));
+        words.add(new IrregularVerb("rise", "rose", "risen", "підніматися"));
+        words.add(new IrregularVerb("run", "ran", "run", "бігти"));
+        words.add(new IrregularVerb("say", "said", "said", "сказати"));
+        words.add(new IrregularVerb("see", "saw", "seen", "бачити"));
+        words.add(new IrregularVerb("sell", "sold", "sold", "продавати"));
+        words.add(new IrregularVerb("send", "sent", "sent", "надсилати"));
+        words.add(new IrregularVerb("set", "set", "set", "налаштовувати, встановлювати"));
+        words.add(new IrregularVerb("sit", "sat", "sat", "сидіти"));
+
+        words.add(new IrregularVerb("sleep", "slept", "slept", "спати"));
+        words.add(new IrregularVerb("speak", "spoke", "spoken", "говорити, розмовляти"));
+        words.add(new IrregularVerb("spend", "spent", "spent", "тратити, проводити(час)"));
+        words.add(new IrregularVerb("stand", "stood", "stood", "стояти"));
+        words.add(new IrregularVerb("steal", "stole", "stolen", "красти"));
+        words.add(new IrregularVerb("swim", "swam", "swum", "плавати"));
+        words.add(new IrregularVerb("take", "took", "taken", "брати"));
+        words.add(new IrregularVerb("teach", "taught", "taught", "навчати"));
+        words.add(new IrregularVerb("tell", "told", "told", "розповідати"));
+        words.add(new IrregularVerb("think", "thought", "thought", "думати"));
+        words.add(new IrregularVerb("understand", "understood", "understood", "розуміти"));
+        words.add(new IrregularVerb("wake", "woke", "woken", "прокидатися"));
+        words.add(new IrregularVerb("wear", "wore", "worn", "носити, одягати"));
+        words.add(new IrregularVerb("win", "won", "won", "перемагати, вигравати"));
+        words.add(new IrregularVerb("write", "wrote", "written", "писати"));
+        words.add(new IrregularVerb("hit", "hit", "hit", "вдарити"));
+        words.add(new IrregularVerb("keep", "kept", "kept", "зберігати, тримати"));
+        words.add(new IrregularVerb("fly", "flew", "flown", "літати"));
+        words.add(new IrregularVerb("find", "found", "found", "знайти"));
+        words.add(new IrregularVerb("hurt", "hurt", "hurt", "причинити біль"));
+        words.add(new IrregularVerb("make", "made", "made", "зробити"));
+        words.add(new IrregularVerb("shoot", "shot", "shot", "стріляти"));
+        words.add(new IrregularVerb("throw", "threw", "thrown", "кидати"));
+
+
+
         return words;
     }
 }
