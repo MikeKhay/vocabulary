@@ -8,32 +8,77 @@ import java.util.Scanner;
 public class Vocabulary {
     public static void main(String[] args) {
 
-//        IrregularVerb verb = new IrregularVerb("Do", "Did", "Done", "Робити");
-
         List<Word> words = getWords();
 
         while (words.size() != 0) {
             Random ran = new Random();
             int index = ran.nextInt(words.size());
-
             Word word = words.get(index);
-            System.out.println("List size: " + words.size());
 
-            System.out.println(word.getT());
+            if (word instanceof IrregularVerb) {
 
-            Scanner in = new Scanner(System.in);
-            String s = in.nextLine();
+                checkVord(word, index, words);
 
-            if (s.equalsIgnoreCase(word.getW())) {
-                System.out.println("true");
-                words.remove(index);
             } else {
-                System.out.println("false. " + word);
+
+                checkVord(word, index, words);
+
             }
-            System.out.println("====================================================");
+
+            System.out.println("List size: " + words.size());
         }
 
         System.out.println("LIST IS EMPTY");
+    }
+
+    public static void checkVord(IrregularVerb word, int index, List<Word> words) {
+        System.out.println("==== IRREGULAR VERB ====");
+        System.out.println(word.getT());
+
+        Scanner in1 = new Scanner(System.in);
+        String s1 = in1.nextLine();
+
+        if (s1.equalsIgnoreCase(word.getW())) {
+            System.out.println("true.");
+        } else {
+            System.out.println("false. " + word);
+            return;
+        }
+
+        Scanner in2 = new Scanner(System.in);
+        String s2 = in2.nextLine();
+
+        if (s2.equalsIgnoreCase(word.getW2())) {
+            System.out.println("true.");
+        } else {
+            System.out.println("false. " + word);
+            return;
+        }
+
+        Scanner in3 = new Scanner(System.in);
+        String s3 = in3.nextLine();
+
+        if (s3.equalsIgnoreCase(word.getW3())) {
+            System.out.println("true.");
+            words.remove(index);
+        } else {
+            System.out.println("false. " + word);
+        }
+    }
+
+    public static void checkVord(Word word, int index, List<Word> words) {
+        System.out.println("==== WORD ====");
+        System.out.println(word.getT());
+
+        Scanner in = new Scanner(System.in);
+        String s = in.nextLine();
+
+        if (s.equalsIgnoreCase(word.getW())) {
+            System.out.println("true");
+            words.remove(index);
+        } else {
+            System.out.println("false. " + word);
+        }
     }
 
     public static List<Word> getWords() {
