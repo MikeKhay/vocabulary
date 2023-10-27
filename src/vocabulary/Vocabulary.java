@@ -13,17 +13,19 @@ public class Vocabulary {
         while (words.size() != 0) {
             Random ran = new Random();
             int index = ran.nextInt(words.size());
-            Word word = words.get(index);
+            IrregularVerb word = (IrregularVerb) words.get(index);
 
-            if (word instanceof IrregularVerb) {
+            checkVord(word, index, words);
 
-                checkVord(word, index, words);
-
-            } else {
-
-                checkVord(word, index, words);
-
-            }
+//            if (word instanceof IrregularVerb) {
+//
+//                checkVord(word, index, words);
+//
+//            } else {
+//
+//                checkVord(word, index, words);
+//
+//            }
 
             System.out.println("List size: " + words.size());
         }
@@ -64,6 +66,7 @@ public class Vocabulary {
         } else {
             System.out.println("false. " + word);
         }
+        System.out.println("");
     }
 
     public static void checkVord(Word word, int index, List<Word> words) {
@@ -79,6 +82,7 @@ public class Vocabulary {
         } else {
             System.out.println("false. " + word);
         }
+        System.out.println("");
     }
 
     public static List<Word> getWords() {
@@ -944,7 +948,7 @@ public class Vocabulary {
         words.add(new IrregularVerb("hear", "heard", "heard", "чути"));
         words.add(new IrregularVerb("hide", "hid", "hidden", "ховатися"));
         words.add(new IrregularVerb("know", "knew", "known", "знати"));
-        words.add(new IrregularVerb("lead", "led", "let", "вести, призводити"));
+        words.add(new IrregularVerb("lead", "led", "led", "вести, призводити"));
         words.add(new IrregularVerb("learn", "learnt", "learnt", "вчити(ся)"));
         words.add(new IrregularVerb("leave", "left", "left", "залишити, покидати"));
         words.add(new IrregularVerb("lend", "lent", "lent", "позичати"));
