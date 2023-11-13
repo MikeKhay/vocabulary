@@ -1,6 +1,8 @@
 package vocabulary;
 
-public class IrregularVerb extends Word{
+import java.io.Serializable;
+
+public class IrregularVerb extends Word implements Serializable {
 
     private String w2;
     private String w3;

@@ -1,6 +1,8 @@
 package vocabulary;
 
-public class Word {
+import java.io.Serializable;
+
+public class Word implements Serializable {
     private String w;
     private String t;
 

@@ -1,5 +1,6 @@
 package vocabulary;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -8,7 +9,9 @@ import java.util.Scanner;
 public class Vocabulary {
     public static void main(String[] args) {
 
-        List<Word> words = getWords();
+//        List<Word> words = getWords();
+
+        List<Word> words = getSavedWords();
 
         while (words.size() != 0) {
             Random ran = new Random();
@@ -18,16 +21,6 @@ public class Vocabulary {
             Word word = words.get(index);
 
             checkWord(word, index, words);
-
-//            if (word instanceof IrregularVerb) {
-//
-//                checkVord(word, index, words);
-//
-//            } else {
-//
-//                checkVord(word, index, words);
-//
-//            }
 
             System.out.println("List size: " + words.size());
         }
@@ -78,6 +71,10 @@ public class Vocabulary {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
 
+        if (s.equalsIgnoreCase("saveWords")) {
+            saveWords(words);
+        }
+
         if (s.equalsIgnoreCase(word.getW())) {
             System.out.println("true");
             words.remove(index);
@@ -86,6 +83,44 @@ public class Vocabulary {
         }
         System.out.println("");
     }
+
+    private static void saveWords(List<Word> words) {
+
+        try{
+            FileOutputStream writeData = new FileOutputStream("wordsData.ser");
+            ObjectOutputStream writeStream = new ObjectOutputStream(writeData);
+
+            writeStream.writeObject(words);
+            writeStream.flush();
+            writeStream.close();
+
+            System.out.println("=======================================");
+            System.out.println("========== Words have saved ===========");
+            System.out.println("=======================================");
+
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static List<Word> getSavedWords() {
+        List<Word> words = null;
+        try{
+            FileInputStream readData = new FileInputStream("wordsData.ser");
+            ObjectInputStream readStream = new ObjectInputStream(readData);
+
+            words = (ArrayList<Word>) readStream.readObject();
+            readStream.close();
+
+            System.out.println(words.toString());
+        }catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        return words;
+    }
+
+
 
     public static List<Word> getWords() {
         List<Word> words = new ArrayList<>();
